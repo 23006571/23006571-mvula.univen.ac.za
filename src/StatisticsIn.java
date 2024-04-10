@@ -1,21 +1,24 @@
 import java.util.Scanner;
-import static java.lang.Math.pow;
-public class StatisticsIn{
-    
-public static void main(String[]args){
-    Scanner Jane =new Scanner(System.in);
-    
-    System.out.print("enter principle amount");
- double P=Jane.nextDouble();
- System.out.print("enter annual interest");
- double I=Jane.nextDouble();
- System.out.println("enter period");
- int N = Jane.nextByte();
- 
- double A=P*Math.pow(1+I,N);
- System.out.println("the amount is"+A);
- 
+public class cindy {
+
+public static void main(String[]args) {
+Scanner scan=new Scanner (System. in) ;
+
+double A,P, I, N;
+
+System. out println ("Enter the principal amout") ;
+P=scan. nextDouble () ;
+System. out.println ("Enter the annual interest rate");
+I=scan.nextDouble () ;
+
+System.out printin ("Enter the period") ;
+N=scan.nextDouble () ;
+
+A=p*Math.pow( (1+I) ,N) ;
+System. out println ("The final amount"+A) ;
+
 }
 
- 
 
+
+}
